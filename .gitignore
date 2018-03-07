@@ -85,6 +85,11 @@ target/
 
 # celery beat schedule file
 celerybeat-schedule
+my_audio/
+MySpeech/
+.idea/
+my_dev.json
+
 
 # SageMath parsed files
 *.sage.py
@@ -110,11 +115,7 @@ ENV/
 # mypy
 .mypy_cache/
 
-# Known datasets
+# Datasets
 
-MNIST*
-MNIST_data/*
-
-# Exclude custom folders
-
-aind2-cnn/*
+LibriSpeech_Samples/*
+LibriSpeech_Samples*
